@@ -69,7 +69,7 @@ boolean isTrue = true;
 
 ```
 
-[Primitive Types]("/Images/primitive-types.PNG")
+![Primitive Types]("/Images/primitive-types.PNG")
 
 Non-primitives data types Or Reference Types (Object types)
 
@@ -166,13 +166,14 @@ System.out.println(name2.toLowerCase());
 
 for string concatination we can use the plus sign(+)
 or we can use the concat method
+
 ```
 System.out.println("hey " + "there");
 System.out.println("hey ".concat(" whaat? ").concat("This Works!")); //hey  whaat? This Works!
 ```
 
-
 ## the Math Class
+
 from java.lang
 We don't have to import any packages
 
@@ -183,10 +184,10 @@ System.out.println((int) Math.pow(4,2));//type casting to integer
 System.out.println((int) Math.sqrt(25));
 ```
 
-
 ## If statements and Ternary Operators
 
 if statements
+
 ```java
 String randomOutput;
 if( 5 > 1){
@@ -197,6 +198,7 @@ if( 5 > 1){
 ```
 
 for simple If statements we can use ternary operators
+
 ```java
 String randomOutput;
 randomOutput = 5 > 2 ?  "number is bigger" : "number is less";
@@ -220,6 +222,7 @@ switch (gender){
 ```
 
 ## Arrays
+
 We need to specify the size of the array.
 After setting a size we cannot change it.
 
@@ -233,6 +236,7 @@ String [] numbers = new String[2]; // by default the numbers are null
 ## For loop and Enhanced for Loop & more Advanced
 
 for loops:
+
 ```java
 int [] numbers = { 1, 4, 2, 4, 5, 2,3};
 for( int i = 0; i < 10 ;  i++){
@@ -241,6 +245,7 @@ for( int i = 0; i < 10 ;  i++){
 ```
 
 enhanced loops:
+
 ```java
 int [] numbers = { 1, 4, 2, 4, 5, 2,3};
 for (int number: numbers){
@@ -249,16 +254,15 @@ for (int number: numbers){
 ```
 
 Advanced
+
 ```java
 int [] numbers = { 1, 4, 2, 4, 5, 2,3};
 Arrays.stream(numbers).forEach(System.out::println);
 ```
 
-
 ## The SCANNER class
+
 Comes with java.util thus we need to import it.
-
-
 
 ```java
 import java.util.Scanner;
@@ -274,16 +278,18 @@ System.out.println("You were born in " year);
 ```
 
 ## CLASSES AND OBJECTS
+
 Objects: anything you can think of that represents something in the real world
 
 Class: a template or a blueprint for creating objects
 
 classes can have attributes and behaviors(methods)
+
 ```java
 public class Main {
 
     public static void main(String[] args) {
-        
+
         Lens lensOne = new Lens("sony", "85mm", true);
     }
 
