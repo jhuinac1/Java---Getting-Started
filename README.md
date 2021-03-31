@@ -69,7 +69,7 @@ boolean isTrue = true;
 
 ```
 
-![Primitive Types]("/Images/primitive-types.PNG")
+![Primitive Types](./Images/primitive-types.PNG)
 
 Non-primitives data types Or Reference Types (Object types)
 
